@@ -1,0 +1,9 @@
+[package]
+name = "httpclient"
+version = "0.1.0"
+authors = ["songday <songday@yeah.net>"]
+
+[dependencies]
+actix-web = { version = "^0.7", features=["alpn"] }
+futures = "^0.1"
+url = { version="1.7", features=["query_encoding"] }
